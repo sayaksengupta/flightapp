@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+.homecontainer{
+    background-image: url("trav.jpg");
+    height: calc(100vh - 50px);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Berkshire Swash', cursive;
+}
+    
+
+.quote{
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    color: white;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.middle{
+  height: 600px;
+  width: 900px;
+  background-color:rgba(255, 255, 255, 0.308);
+  border-radius: 20px;
+
+}
+.form input{
+  width: 450px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 5px;
+  box-shadow: 4px 2px 4px 2px rgb(204, 80, 22);
+  
+ 
+}
+.dropdown{
+  width: 450px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 5px;
+  
+  box-shadow: 12px 6px 12px 6px rgb(204, 80, 22);
+}
+
+.emni{
+  font-size: smaller;
+}
+
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+  /* padding-left: 100px; */
+  align-items: center;
+  padding-top: 70px;
+  gap: 50px;
+}
+.form p{
+  font-size: larger;
+}
+.search{
+  padding: 0 400px;
+  padding-top: 40px;
+}
+.search button{
+  padding: 10px 35px;
+  border-radius: 10px;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  font-family: 'Berkshire Swash', cursive;
+  box-shadow: 0px 15px 15px rgba(233, 7, 7, 0.849);
+  cursor: pointer;
+  
+}
+
+.search button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(229, 211, 46, 0.884);
+  color: #fff;
+  transform: translateY(-7px);
+  
+}

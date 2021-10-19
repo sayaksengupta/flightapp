@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+.navbar{
+    height: 50px;
+    width: 100%;
+    /* background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); */
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    /* text-align: center; */
+    padding: 10px 10px;
+    box-sizing: border-box;
+    display: flex;
+
+    font-family: 'Berkshire Swash', cursive;
+    background-attachment: fixed;
+    
+    
+    gap:10px;
+    
+}
+.travlogo{
+    width: 30px;
+    
+}
+
+.register-btn button{
+    padding: 6px 25px;
+  border-radius: 10px;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  font-family: 'Berkshire Swash', cursive;
+  box-shadow: 0px 15px 20px rgba(229, 211, 46, 0.884);
+  cursor: pointer;
+  margin-right: 1rem;
+
+}
+
+.register-btn button:hover{
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 15px rgba(233, 7, 7, 0.849);
+    color: #fff;
+    /* transform: translateY(-7px); */
+}

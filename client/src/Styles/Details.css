@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+.box{
+    display: flex;
+}
+.mapcon{
+    width: 70vw;
+    background-color:black;
+    height: calc(100vh - 50px);
+}
+.detailscon{
+    width: 30vw;
+    /* background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%); */
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    height: calc(100vh - 50px);
+}
+.bckbtn{
+    
+    margin: 25px 6px 0 350px;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  font-family: 'Berkshire Swash', cursive;
+  box-shadow: 0px 15px 15px rgba(233, 7, 7, 0.849);
+}
+.bckbtn:hover{
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(229, 211, 46, 0.884);
+    color: #fff;
+}
+.search-data{
+    display: flex;
+    background-color: #7a554b3f;
+    padding: 20px 65px;
+}
+.avl{
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(2, 2, 2);
+}
+.carrier{
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    
+    height: max-content;
+    width:max-content;
+    
+}
+.carrname{
+    padding: 5px 15px;
+}
+.price{
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    height: max-content;
+    width:max-content;
+    
+}
+.prname{
+    padding: 5px 15px;
+}
+.date{
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    height:max-content;
+    width:max-content;
+    
+}
+.dtname{
+    padding: 5px 15px;
+}

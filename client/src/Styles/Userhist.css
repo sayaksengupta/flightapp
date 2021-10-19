@@ -1,0 +1,44 @@
+.user-hist{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hist-card{
+    width: 600px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #FFF0CA;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hist-card .hist-middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -20px;
+}
+.IATA{
+    font-size: 22px;
+    font-weight: bolder;
+}
+.loc-name{
+    font-weight: bold;
+    font-size: 18px;
+}
+.hist-date{
+    font-weight: bold;
+    color: #F9AE1D;
+}
+.hist-flight{
+    font-size: 22px;
+    color: #F9AE1D;
+}
+.arrow{
+    size: 200px;
+}
